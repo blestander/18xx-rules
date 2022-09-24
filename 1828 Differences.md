@@ -26,6 +26,28 @@
 * After a D train is sold, new companies may not be parred, and their reserved spots for stations are filled with blockers.
 * Companies use the standard IPO rules for their initial sale of stock (i.e. not the treasury rules some other 18xx games do).
 
+## Operating Rounds
+
+Operating rounds in 1828 work basically the same as 1830.
+What follows is just a list of quirks.
+
+* Corporations may place two tiles on a turn, but only one of those may be an upgrade.
+* Virginia Coalfields and Coal Tokens
+  * No stations may be placed on the coalfields tile (K11).
+  * Only tile #4 (straight through with town) may be played on the Virginia Tunnel (K13). Any corporation placing this tile may take this tile's coal token.
+  * If a corporation can connect to the Virginia Coalfields (K11), they may pay $120 for one of this tile's two coal tokens.
+  * The Virginia Coalfields (K11) will block construction past it, and trains may not go to or through it, unless a corporation owns a coal token.
+  * Each corporation may only have one coal token. If one comes to possess multiple, extras must be returned to the Virginia Coalfields (K11)
+* COBOURG & PETERBOROUGH RAILWAY (private company)
+  * This is a private company that pretends to be a public corporation.
+  * During the private company portion of operating rounds, C&P may lay a single track, using money from its own treasury if needed.
+  * Instead of a static revenue, C&P may run a (mechanically imaginary) 2-train from its initial station, paying half of the money earned to owner and half of the money earned into C&P's treasury.
+  * Upon acquisition by a corporation, the money in C&P's treasury is passed to the corporation, and C&P's station may be swapped for the acquiring corporation's station.
+    * The swap may not occur on a turn that the acquiring corporation has already placed a station.
+  * If C&P closes or its station is not swapped in an acquisition, it's station is replaced with a blocker.
+* BOSTON & MAINE and NEW YORK NEW HAVEN & HARTFORD
+  * These two corporations (or systems that contain them) may place an additional track at a cost of $40 if they have not upgraded any track on this turn.
+
 ## Mergers
 
 * Two public corporations may be merged into a system.
@@ -55,28 +77,6 @@
   8. If one of the merged corporations has not floated, the resulting system will not have floated unless at least 60% of its shares have been sold.
 * After a merger, the system will now have two "shell" corporations, which will have their own trains, subject to their own train limits, and thus will be forced to buy trains independently from one another, but will run trains and earn money together as one system.
 * The donated share of the system in the system's treasury will pay out to the system.
-
-## Operating Rounds
-
-Operating rounds in 1828 work basically the same as 1830.
-What follows is just a list of quirks.
-
-* Corporations may place two tiles on a turn, but only one of those may be an upgrade.
-* Virginia Coalfields and Coal Tokens
-  * No stations may be placed on the coalfields tile (K11).
-  * Only tile #4 (straight through with town) may be played on the Virginia Tunnel (K13). Any corporation placing this tile may take this tile's coal token.
-  * If a corporation can connect to the Virginia Coalfields (K11), they may pay $120 for one of this tile's two coal tokens.
-  * The Virginia Coalfields (K11) will block construction past it, and trains may not go to or through it, unless a corporation owns a coal token.
-  * Each corporation may only have one coal token. If one comes to possess multiple, extras must be returned to the Virginia Coalfields (K11)
-* COBOURG & PETERBOROUGH RAILWAY (private company)
-  * This is a private company that pretends to be a public corporation.
-  * During the private company portion of operating rounds, C&P may lay a single track, using money from its own treasury if needed.
-  * Instead of a static revenue, C&P may run a (mechanically imaginary) 2-train from its initial station, paying half of the money earned to owner and half of the money earned into C&P's treasury.
-  * Upon acquisition by a corporation, the money in C&P's treasury is passed to the corporation, and C&P's station may be swapped for the acquiring corporation's station.
-    * The swap may not occur on a turn that the acquiring corporation has already placed a station.
-  * If C&P closes or its station is not swapped in an acquisition, it's station is replaced with a blocker.
-* BOSTON & MAINE and NEW YORK NEW HAVEN & HARTFORD
-  * These two corporations (or systems that contain them) may place an additional track at a cost of $40 if they have not upgraded any track on this turn.
 
 ## End Game
 
