@@ -58,7 +58,7 @@ What follows is just a list of quirks.
   * Both corporations cannot have been floated in a previous stock round, but one or both must have been floated in the current stock round.
 * Merger process
   1. The acting player must select which corporation will remain as the system (i.e. which corporation will appear on the stock market, and which corporation's stations and shares will be used by the system.)
-  2. To determine the system's new stock price, moving up and then right from the left most corporation's stock price, use the largest price that is not greater than the larger stock price plus half the smaller stock price, rounding down.
+  2. The new system's stock price will be (roughly) the greater corporation's stock price plus half the lesser corporation's stock price.
   3. Combine the two corporation's assets.
      * If only one of the corporations has not floated, the money it would have gained on floating is lost.
      * If the system has multiple coal tokens, return all but one to the Virginia Coalfields.
@@ -72,10 +72,9 @@ What follows is just a list of quirks.
      * Discard their share in exchange for the current share price from the bank.
   6. All remaining IPO or bank pool shares of the merged corporations are discarded, and any remaining shares of the new system are placed into the bank pool.
   7. The new director must donate a 10% share to the new system's treasury.
-     * The director is the active player, unless another player has more stock in the new system.
      * If there is no director, or the director cannot make this donation, the merger fails.
   8. If one of the merged corporations has not floated, the resulting system will not have floated unless at least 60% of its shares have been sold.
-* After a merger, the system will now have two "shell" corporations, which will have their own trains, subject to their own train limits, and thus will be forced to buy trains independently from one another, but will run trains and earn money together as one system.
+* After a merger, the system will now have two "shell" corporations, which will have their own trains, subject to their own train limits, and thus will be forced to buy trains independently from one another, but will run trains and earn money together as one system. The system can reorganize these trains between the shells as they wish before buying trains.
 * The donated share of the system in the system's treasury will pay out to the system.
 
 ## End Game
